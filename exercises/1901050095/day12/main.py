@@ -30,7 +30,7 @@ def main():
             msg.reply(str(result))  #用调用reply的方法，回复刚才分词统计的结果，结果转换为str类型 
         except Exception as e:
             logging.exception(e)
-        embed() #调用embed的方法，让程序不直接退出，一直运行程序。而不会因为发生了一次就停止了程序
+    embed() #调用embed的方法，让程序不直接退出，一直运行程序。而不会因为发生了一次就停止了程序
 
 
 if __name__=="__main__":
